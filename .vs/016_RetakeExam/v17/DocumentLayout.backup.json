@@ -38,8 +38,7 @@
               "RelativeToolTip": "RevueCrafters\\Models\\RevueDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:09:18.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:09:18.492Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "RevueCrafters\\Models\\ApiResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:08:59.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T06:08:59.135Z"
             },
             {
               "$type": "Document",
@@ -60,9 +58,9 @@
               "Title": "RevueCraftersApiTests.cs",
               "DocumentMoniker": "E:\\SoftUni\\QA\\QA_Back_End_Test_Automation_Juli_2025\\016_RetakeExam\\RevueCrafters\\RevueCraftersApiTests.cs",
               "RelativeDocumentMoniker": "RevueCrafters\\RevueCraftersApiTests.cs",
-              "ToolTip": "E:\\SoftUni\\QA\\QA_Back_End_Test_Automation_Juli_2025\\016_RetakeExam\\RevueCrafters\\RevueCraftersApiTests.cs",
-              "RelativeToolTip": "RevueCrafters\\RevueCraftersApiTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAIAAAAAAAAAA==",
+              "ToolTip": "E:\\SoftUni\\QA\\QA_Back_End_Test_Automation_Juli_2025\\016_RetakeExam\\RevueCrafters\\RevueCraftersApiTests.cs*",
+              "RelativeToolTip": "RevueCrafters\\RevueCraftersApiTests.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T06:07:11.836Z",
               "EditorCaption": ""

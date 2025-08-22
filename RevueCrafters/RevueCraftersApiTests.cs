@@ -12,8 +12,8 @@ namespace RevueCrafters
 
         private string JwtToken = null;
 
-        private string Email = "IvayloV@test.com";
-        private string Password = "123321";
+        private string Email = Environment.GetEnvironmentVariable("REVUE_CRAFTERS_EMAIL", EnvironmentVariableTarget.User);
+        private string Password = Environment.GetEnvironmentVariable("REVUE_CRAFTERS_PASS", EnvironmentVariableTarget.User);
 
 
         private string BaseUrl = "https://d2925tksfvgq8c.cloudfront.net";
