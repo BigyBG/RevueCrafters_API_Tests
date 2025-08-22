@@ -12,9 +12,13 @@ namespace RevueCrafters
 
         private string JwtToken = null;
 
-        private string Email = Environment.GetEnvironmentVariable("REVUE_CRAFTERS_EMAIL", EnvironmentVariableTarget.User);
-        private string Password = Environment.GetEnvironmentVariable("REVUE_CRAFTERS_PASS", EnvironmentVariableTarget.User);
-
+        private static string ReadEnv(string name) =>
+            Environment.GetEnvironmentVariable(name) ??                                  // Process (CI/CD)
+            Environment.GetEnvironmentVariable(name, EnvironmentVariableTarget.User) ??  // Local user
+            Environment.GetEnvironmentVariable(name, EnvironmentVariableTarget.Machine); // Local machine
+        
+        private readonly string Email = ReadEnv("REVUE_CRAFTERS_EMAIL");
+        private readonly string Password = ReadEnv("REVUE_CRAFTERS_PASS");
 
         private string BaseUrl = "https://d2925tksfvgq8c.cloudfront.net";
 
